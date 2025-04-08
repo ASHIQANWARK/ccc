@@ -7,19 +7,20 @@ import {
 } from "react-icons/fa";
 // import Logo from "../assets/images/incubenation1.png"; // Adjust the path as needed
 import { FaX } from "react-icons/fa6";
+import Logo from "../assets/logowhite.png"
 
 const Footer = () => {
   return (
     <footer className="bg-gradient-to-r from-[#0f172a] via-[#1e293b] to-[#0f172a] text-white">
       <div className="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-4 gap-8">
         {/* Column 1: Logo */}
-        {/* <div className="flex justify-center md:justify-start">
+        <div className="flex justify-center md:justify-start">
           <img
             src={Logo}
             alt="Incubention Logo"
             className="w-32 h-auto object-contain" // Adjusted size
           />
-        </div> */}
+        </div>
 
         {/* Column 2: Address, Email, Privacy Policy & Help Centre */}
         <div className="text-center md:text-left">
@@ -34,7 +35,7 @@ const Footer = () => {
               href="mailto:ceo@incubenation.com"
               className="text-[#ffab00] hover:underline"
             >
-              ceo@incubenation.com
+              ceo@careercounsellorconsortium.com
             </a>
           </p>
           <p className="text-gray-300 mt-2">
