@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { FaUsers, FaBullseye, FaEye } from "react-icons/fa";
+import {  FaBullseye, FaEye } from "react-icons/fa";
 import img4 from "../assets/img4.jpg";
 import img3 from "../assets/img3.jpg";
 import logo from "../assets/logowhite.png";

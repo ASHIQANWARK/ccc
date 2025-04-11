@@ -65,7 +65,7 @@ const cardVariants = {
 
 const Features = () => {
   return (
-    <div className="py-20 px-6 md:px-12 bg-gradient-to-r from-[#0f172a] via-[#1e293b] to-[#0f172a] body-font">
+    <div className="py-20 px-6 md:px-12 bg-gradient-to-r from-[#0f172a] via-[#1e293b] to-[#0f172a] ">
       <motion.h2
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}

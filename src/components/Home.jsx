@@ -3,6 +3,7 @@ import Features from "../pages/Features";
 import Testimonials from "../pages/Testimonials";
 import ChatBot from "../pages/ChatBot";
 import About from "../pages/About";
+import EntrepreneurStats from "../pages/EntrepreneurStats";
 
 const Home = () => {
   return (
@@ -13,8 +14,8 @@ const Home = () => {
       <div id="about">
         <About />
       </div>
-
       <Features />
+      <EntrepreneurStats />
       <Testimonials />
       <ChatBot />
     </div>

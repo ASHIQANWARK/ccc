@@ -15,7 +15,7 @@ const Contact = () => {
   const sendWhatsAppMessage = (e) => {
     e.preventDefault();
     const whatsappMessage = `Name: ${formData.name}%0AEmail: ${formData.email}%0ASubject: ${formData.subject}%0AMessage: ${formData.message}`;
-    window.open(`https://wa.me/6282929177?text=${whatsappMessage}`, "_blank");
+    window.open(`https://wa.me/9035854097?text=${whatsappMessage}`, "_blank");
   };
 
   return (
@@ -43,8 +43,8 @@ const Contact = () => {
                 <i className="fas fa-phone-alt"></i>
               </div>
               <div>
-                <h5 className="font-bold text-lg heading-font">Call Us</h5>
-                <p className="text-lg">+91-6282929177</p>
+                <h5 className="font-bold text-lg">Call Us</h5>
+                <p className="text-lg font-sans">+91-9035854097</p>
               </div>
             </div>
             <div className="flex items-center p-6 rounded-xl shadow-xl bg-white bg-opacity-40 backdrop-blur-md">

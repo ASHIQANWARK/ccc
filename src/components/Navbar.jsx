@@ -39,7 +39,17 @@ const Navbar = () => {
           </li>
           <li>
             <Link to="/join-us" className={`${linkBaseClasses} ${isActive("/join-us") ? "text-blue-400" : ""}`}>
-              Join Us
+              Join our Community
+            </Link>
+          </li>
+          <li>
+            <Link to="/join-us" className={`${linkBaseClasses} ${isActive("/join-us") ? "text-blue-400" : ""}`}>
+            Entrepreneurship
+            </Link>
+          </li>
+          <li>
+            <Link to="/join-us" className={`${linkBaseClasses} ${isActive("/join-us") ? "text-blue-400" : ""}`}>
+              Outcomes
             </Link>
           </li>
           <li>
